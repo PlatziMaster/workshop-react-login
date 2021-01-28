@@ -6,7 +6,7 @@ import Dashboard from '@containers/Dashboard';
 import NotFound from '@containers/NotFound';
 
 const App = () => {
-    const isLogin = true;
+    const isLogin = false;
 
     const RequireAuth = ({children}) => {
         if (!isLogin) {
